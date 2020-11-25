@@ -18,6 +18,7 @@ public class CalculatorTest {
 			openCalculator();
 		} catch (Exception e) {
 			System.out.println("Cause is: "+e.getCause());
+			System.out.println("Message is: "+e.getMessage());
 			e.printStackTrace();
 		}
 	}
