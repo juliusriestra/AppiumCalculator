@@ -37,6 +37,7 @@ public class TestngCalculatorTest {
 		
 	} catch (Exception e) {
 		System.out.println("Cause is: "+e.getCause());
+		System.out.println("Message are: "+e.getMessage());
 		e.printStackTrace();
 	}
   }
